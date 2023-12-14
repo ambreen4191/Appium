@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT"
+	name="Abacus Android Automation">
+	<listeners>
+		<listener class-name="com.abacus.listeners.ExtentListeners" />
+		<listener
+			class-name="com.abacus.errorCollectors.TestListenerAdapter" />
+		<listener
+			class-name="com.abacus.listeners.TestFilterListener" />
+		<listener
+			class-name="com.abacus.listeners.AnnotationTransformer" />
+		<listener
+			class-name="com.abacus.listeners.MyTestListenerAdapter" />
+	</listeners>
+	<!--
+	<test name="Abacus Android Automation - Edge Browser">
+		<parameter name="browser" value="edge" />
+		<classes>
+		
+				<class name="com.abacus.testsNotLoggedIn.Test_HomePage" />
+				<class name="com.abacus.testsNotLoggedIn.Test_Solutions" />
+				<class name="com.abacus.testsNotLoggedIn.Test_MLOpps" />
+				
+			
+			<class name="com.abacus.testsNotLoggedIn.Test_MLOps" />
+			<class name="com.abacus.testsNotLoggedIn.Test_HomePage" />
+			<class name="com.abacus.testsNotLoggedIn.Test_Solutions" />
+		</classes>
+	</test>
+	-->
+	
+	
+	<test name="Abacus Android Automation - Chrome Browser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+		
+			<!--
+			<class name="com.abacus.testsNotLoggedIn.Test_MLOps" />
+			<class name="com.abacus.testsNotLoggedIn.Test_HomePage" />
+			<class name="com.abacus.testsNotLoggedIn.Test_Solutions" /> 
+			-->
+	
+			<class name="com.abacus.testsNotLoggedIn.Test_MLOps" />
+			
+		</classes>
+		
+	</test>
+
+	
+</suite>

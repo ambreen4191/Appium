@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.abacus.testsNotLoggedIn.Test_MLOps">
+        <methods>
+          <include name="verifyBySubmittingRequestConsultationFormInModelHostingAndDataPipelinesFromMLOps"/>
+          <include name="verifyBySubmittingRequestConsultationFormInRealTimeMLFeatureStoreFromMLOps"/>
+          <include name="verifyBySubmittingRequestConsultationFormInVectorMachingEngineFromMLOps"/>
+          <include name="verifyBySubmittingRequestAccessFormInHumanAIChampionChallengerFromMLOps"/>
+          <include name="verifyBySubmittingRequestAccessFormInModelHostingAndDataPipelinesFromMLOps"/>
+          <include name="verifyBySubmittingRequestConsultationFormInHumanAIChampionChallengerFromMLOps"/>
+          <include name="verifyBySubmittingRequestAccessFormInVectorMachingEngineFromMLOps"/>
+          <include name="verifyBySubmittingRequestConsultationFormInDriftObservabilityAndExplainabilityFromMLOps"/>
+          <include name="tearDown"/>
+          <include name="verifyUserIsAbleToOpenMLOpsFromNavBar"/>
+          <include name="verifyBySubmittingRequestAccessFormInDriftObservabilityAndExplainabilityFromMLOps"/>
+          <include name="verifyBySubmittingRequestAccessFormInRealTimeMLFeatureStoreFromMLOps"/>
+        </methods>
+      </class> <!-- com.abacus.testsNotLoggedIn.Test_MLOps -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
