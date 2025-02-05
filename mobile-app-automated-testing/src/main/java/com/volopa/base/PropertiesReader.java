@@ -7,9 +7,6 @@ import java.util.Properties;
 public class PropertiesReader {
 
 	 public static Properties config = new Properties();
-
-	 
-
      public static Properties readProp() {
 
                      FileInputStream fis = null;
